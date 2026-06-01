@@ -54,11 +54,22 @@ str = "Swapnil Menkar"
 #     else :
 #         print(i)
 
-for i in range(1, 21):
-    if i == 22:
-        print("Break Statement is executed")
-        break
-    print(i)
+# for i in range(1, 21):
+#     if i == 22:
+#         print("Break Statement is executed")
+#         break
+#     print(i)
 
-else:
-    print("Break statement is not executed")
+# else:
+#     print("Break statement is not executed")
+
+
+
+# WHILE Loop
+
+num = int(input("Enter a number : "))
+
+while num <= 30:
+    print(num)
+    num = num + 1
+
